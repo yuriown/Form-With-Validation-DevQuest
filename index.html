@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Validation</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+    <main>
+    <section class="query">
+        <h1>FICOU COM DÚVIDA? <span>NOS MANDE UMA MENSAGEM!</span></h1>
+
+        <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+    </section>
+    <form class="form" id="form">
+        <div class="text">
+            <div class="text-box">
+                <input id="name" type="text" name="name" placeholder="Nome completo*">
+                <small>campo obrigatório</small>
+            </div>
+            <div class="text-box">
+                <input id="email" type="email" name="email" placeholder="Email*">
+                <small>campo obrigatório</small>
+            </div>
+            <div class="text-box">
+                <input id="phone" type="tel" name="phone" placeholder="Telefone*">
+                <small>campo obrigatório</small>
+            </div>
+            <div class="text-box msg">
+                <textarea name="msg" id="msg" placeholder="Mensagem*"></textarea>
+                <small>campo obrigatório</small>
+                    
+            </div>
+        </div>
+        <p>*campos obrigatórios</p>
+
+        <button class="send-btn" type="submit">Enviar</button>
+    </form>
+    </main>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
