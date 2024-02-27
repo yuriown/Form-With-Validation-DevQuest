@@ -1,4 +1,4 @@
-# Huddle Landing Page
+# Form With Validation
 Project of a form with JS validation made for a QUEST of the DevQuest course.
 
 <img src="./src/images/Form-OK.gif" alt="form with JS validation OK">
